@@ -20,7 +20,7 @@ pod 'SSWebRTC'
 ### OBJC
 
 ```objc
-#include <WebRTC/WebRTC.h>
+#import <WebRTC/WebRTC.h>
 ```
 
 ### SWIFT
