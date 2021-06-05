@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "SSWebRTC"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.4"
   spec.summary      = "SSWebRTC - WebRTC prebuild framework."
   spec.description  = <<-DESC
           SSWebRTC - Use for video call application
@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "suunc-suunc" => "suunc.suunc@gmail.com" }
   spec.platform = :ios, "10.0"
-  spec.source       = { :http => "https://github.com/suunc-suunc/SSWebRTC/releases/download/0.0.2/SSWebRTC.zip"}
+  spec.source       = { :http => "https://github.com/suunc-suunc/SSWebRTC/releases/download/0.0.4/SSWebRTC.zip"}
   spec.source_files  = "WebRTC.framework/Headers/WebRTC.h"
   spec.public_header_files = "WebRTC.framework/Headers/WebRTC.h"
   spec.preserve_paths = "WebRTC.framework"
